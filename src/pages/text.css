@@ -1,0 +1,60 @@
+
+.background {
+    background-color: #f8f9fa;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  /* Card container for spacing */
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  /* Custom card style */
+  .custom-card {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card Image */
+  .custom-card img {
+    border-radius: 10px 10px 0 0;
+    width: 100%; /* Ensure the image spans the full width of the card */
+    height: 250px; /* Set a fixed height to maintain consistency */
+    object-fit: cover; /* Ensures the image is cropped to fit the container */
+  }
+  
+  /* Card Title */
+  .custom-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Card Text */
+  .custom-card .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Button styling */
+  .custom-card .btn {
+    margin-top: 10px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 576px) {
+    .custom-card {
+      margin-bottom: 20px;
+    }
+  }
+  
