@@ -1,0 +1,9 @@
+.form{
+    height: 90vh;
+    width: 80vw;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+   margin: auto;
+}

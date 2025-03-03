@@ -12,6 +12,8 @@
     align-items: center;
     margin: 10px;
   }
+
+
   
   /* Custom card style */
   .custom-card {
@@ -50,6 +52,8 @@
   .custom-card .btn {
     margin-top: 10px;
   }
+
+  
   
   /* Responsive adjustments */
   @media (max-width: 576px) {
